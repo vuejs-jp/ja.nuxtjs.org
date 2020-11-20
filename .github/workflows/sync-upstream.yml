@@ -16,7 +16,7 @@ jobs:
       - name: pull upstream
         run: |
           git config pull.rebase false
-          git pull upstream master
+          git pull --allow-unrelated-histories upstream master
       - name: push
         run: |
           git push origin master
