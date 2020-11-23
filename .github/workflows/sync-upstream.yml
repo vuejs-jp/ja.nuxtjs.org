@@ -1,9 +1,6 @@
 name: Sync upstream
 
 on:
-  push:
-    branches:
-      - fix-committer-identity-unknown
   schedule:
     - cron: '0 0 */3 * *' # midnight every 3 days
 jobs:
