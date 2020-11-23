@@ -13,6 +13,10 @@ jobs:
       - name: add upstream
         run: |
           git remote add upstream https://github.com/nuxt/nuxtjs.org.git
+      - name: set identity # fix: fatal error on pulling upstream: empty ident name
+        run: |
+          git config user.email "inouetakuya5@gmail.com"
+          git config user.name "INOUE Takuya"
       - name: pull upstream
         run: |
           git config pull.rebase false
