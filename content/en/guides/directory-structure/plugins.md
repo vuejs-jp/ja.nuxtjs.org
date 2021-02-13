@@ -79,7 +79,7 @@ The `plugins` directory contains JavaScript plugins that you want to run befor
 
 You may want to use external packages/modules in your application (one great example is [axios](https://axios.nuxtjs.org/)) for making HTTP requests for both server and client.
 
-First, install it via NPM or Yarn.
+First, install it via npm or Yarn.
 
 <code-group>
   <code-block label="Yarn" active>
@@ -89,7 +89,7 @@ yarn add @nuxtjs/axios
 ```
 
   </code-block>
-  <code-block label="NPM">
+  <code-block label="npm">
 
 ```bash
 npm install @nuxtjs/axios
@@ -178,7 +178,7 @@ yarn add v-tooltip
 ```
 
   </code-block>
-  <code-block label="NPM">
+  <code-block label="npm">
 
 ```bash
 npm install v-tooltip
@@ -187,7 +187,7 @@ npm install v-tooltip
   </code-block>
 </code-group>
 
-The we create the file `plugins/vue-tooltip.js`
+Then we create the file `plugins/vue-tooltip.js`
 
 ```js{}[plugins/vue-tooltip.js]
 import Vue from 'vue'
